@@ -1,2 +1,16 @@
-
+ .gallery-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery-column {
+      flex: 1;
+      max-width: 200px;
+      margin: 10px;
+    }
+    .gallery-column img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
 /* Your CSS Code here. */
